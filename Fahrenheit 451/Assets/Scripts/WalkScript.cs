@@ -11,7 +11,7 @@ public class WalkScript : MonoBehaviour{
     private Animator anim;
     private Rigidbody rb;
     [SerializeField]
-    private float Speed;
+    private float Speed = 5f;
     private float idleH;
     private float idleV;
 
