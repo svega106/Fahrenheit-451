@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class WalkScript : MonoBehaviour
 {
     private float speed = 5f;
     public Rigidbody rb;
-
+*/
 public class WalkScript : MonoBehaviour{
     private Animator anim;
     private Rigidbody rb;
