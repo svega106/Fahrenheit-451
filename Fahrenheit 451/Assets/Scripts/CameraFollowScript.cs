@@ -4,20 +4,11 @@ using UnityEngine;
 
 public class CameraFollowScript : MonoBehaviour {
  
-    private Transform player;
-    [SerializeField]
-    private float panSpeed;
-    [SerializeField]
-    private float height;
-    [SerializeField]
-    private float distance;
-    [SerializeField]
-    
+    public Transform player;
+    public float panSpeed;
+    public float height;
+    public float distance;
 
-    
-    void Start () {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-    }
     
     void Update () {
         var newPosition = new Vector3(player.position.x, player.position.y + height, player.position.z - distance);
