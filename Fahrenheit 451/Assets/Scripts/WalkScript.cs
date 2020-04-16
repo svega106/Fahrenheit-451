@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class WalkScript : MonoBehaviour
+{
+    private float speed = 5f;
+    public Rigidbody rb;
 
 public class WalkScript : MonoBehaviour{
     private Animator anim;
@@ -35,4 +39,5 @@ public class WalkScript : MonoBehaviour{
             anim.SetBool("isWalk", false);
         }
     }
+
 }
